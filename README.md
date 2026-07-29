@@ -1,6 +1,6 @@
 # EXP-2-Record-Image-Acquisition-using-Web-Camera
 
-### Aim
+## Aim
 To write a Python program using OpenCV to capture an image from the webcam and perform the following operations:
 
 Write the frame as a JPG file
@@ -11,7 +11,7 @@ Display the video by resizing the window
 
 Rotate and display the video
 
-###  Software Used
+##  Software Used
 
 Anaconda – Python 3.7
 
@@ -19,7 +19,7 @@ Jupyter Notebook / VS Code
 
 OpenCV (cv2)
 
-###  Algorithm
+##  Algorithm
 
 Step 1:
 Import the required libraries and initialize the webcam using cv2.VideoCapture().
@@ -36,7 +36,7 @@ Display the live video stream using cv2.imshow().
 Step 5:
 Resize the frame and rotate it using OpenCV functions, then display the processed frames.
 
-### Program
+## Program
 
 Developed By:
 Name: Jeevanantham C
@@ -64,6 +64,9 @@ plt.title('Captured Frame')
 plt.axis('off')
 plt.show()
 ```
+### OUTPUT:
+
+<img width="547" height="407" alt="image" src="https://github.com/user-attachments/assets/1db7260c-86f0-4bcb-be4a-e174eb49426a" />
 
 ### ii) Display the video
 ```
@@ -82,6 +85,10 @@ for i in range(50):
 
 cap.release()
 ```
+### OUTPUT:
+<img width="568" height="403" alt="image" src="https://github.com/user-attachments/assets/1d187417-07b6-4fa4-8525-71c6805ad6a5" />
+
+
 ### iii) Display the video by resizing the window
 ```
 cap = cv2.VideoCapture(0)
@@ -102,6 +109,11 @@ cap.release()
 
 
 ```
+
+### OUTPUT:
+
+<img width="320" height="415" alt="image" src="https://github.com/user-attachments/assets/fa2be88c-bc3f-4be7-8abd-1717ca582bad" />
+
 ### iv) Rotate and display the video
 ```
 cap = cv2.VideoCapture(0)
@@ -120,6 +132,11 @@ for i in range(50):
 
 cap.release()
 ```
+
+### OUTPUT:
+
+<img width="306" height="395" alt="image" src="https://github.com/user-attachments/assets/75e94efb-cd13-4cd2-890f-c0d7a3ae74da" />
+
 ### Result
 
 Thus, the image is successfully captured from the webcam and various video processing operations such as saving, displaying, resizing, and rotating are performed using OpenCV.
