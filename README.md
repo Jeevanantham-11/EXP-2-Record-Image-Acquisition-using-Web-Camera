@@ -40,7 +40,9 @@ Resize the frame and rotate it using OpenCV functions, then display the processe
 
 Developed By:
 Name: Jeevanantham C
+
 Date: 29/7/2026
+
 Register No:212225240059
 
 ### i) Write the frame as JPG image
